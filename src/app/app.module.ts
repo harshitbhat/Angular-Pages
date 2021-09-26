@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { MyClassDirective } from './directives/my-class.directive';
+import { TimesDirective } from './directives/times.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyClassDirective
+    MyClassDirective,
+    TimesDirective
   ],
   imports: [
     BrowserModule
